@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "655037099294",
+    "project_id": "fut-app-ca041",
+    "storage_bucket": "fut-app-ca041.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655037099294:android:5d7e3fe9dcd264c2f2ed0f",
+        "android_client_info": {
+          "package_name": "com.app.fut_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655037099294-mmok4l6v7m298g2gmekvt7eaujpokedh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fut_app",
+            "certificate_hash": "5d5651a955f4b4a90043dabe93ffa4accb0c5d1f"
+          }
+        },
+        {
+          "client_id": "655037099294-18qoa437m5djhsokknu511l6mpkk471c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFc-wVgPFzz-ECIT_A67zznjA0jm75zeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655037099294-18qoa437m5djhsokknu511l6mpkk471c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
