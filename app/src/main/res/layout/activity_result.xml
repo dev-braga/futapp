@@ -76,6 +76,7 @@
                 app:cardElevation="0dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="@color/background"
                 app:cardCornerRadius="10dp"
                 android:layout_height="wrap_content">
 
@@ -83,7 +84,6 @@
                     android:id="@+id/title_time1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:textSize="16dp"
@@ -91,15 +91,16 @@
                     android:text=""/>
 
                 <EditText
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:maxLines="10"
                     android:id="@+id/txtTeste"
                     android:enabled="false"
                     android:textSize="16sp"
-                    android:backgroundTint="@color/white"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
+                    android:paddingStart="16dp"
+                    android:backgroundTint="@color/transparent"
                     android:inputType="textMultiLine" />
 
             </androidx.cardview.widget.CardView>
@@ -109,6 +110,7 @@
                 app:cardElevation="0dp"
                 app:cardCornerRadius="10dp"
                 android:layout_marginStart="8dp"
+                app:cardBackgroundColor="@color/background"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_height="wrap_content">
@@ -117,21 +119,21 @@
                     android:id="@+id/title_time2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
                     android:layout_marginStart="16dp"
                     android:textSize="16dp"
                     android:textStyle="bold"
                     android:text=""/>
 
                 <EditText
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:maxLines="10"
                     android:id="@+id/txtTeste1"
                     android:enabled="false"
                     android:textSize="16sp"
-                    android:backgroundTint="@color/white"
+                    android:paddingStart="16dp"
+                    android:backgroundTint="@color/transparent"
                     android:textColor="@color/black"
                     android:inputType="textMultiLine" />
 
@@ -141,6 +143,7 @@
                 android:layout_width="match_parent"
                 app:cardElevation="0dp"
                 app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@color/background"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
@@ -154,15 +157,17 @@
                     android:textSize="16dp"
                     android:textStyle="bold"
                     android:text=""/>
+
                 <EditText
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:maxLines="10"
                     android:id="@+id/txtTeste2"
                     android:enabled="false"
                     android:textSize="16sp"
-                    android:backgroundTint="@color/white"
+                    android:paddingStart="16dp"
+                    android:backgroundTint="@color/transparent"
                     android:textColor="@color/black"
                     android:inputType="textMultiLine" />
 
@@ -174,6 +179,7 @@
                 app:cardElevation="0dp"
                 app:cardCornerRadius="10dp"
                 android:layout_marginStart="8dp"
+                app:cardBackgroundColor="@color/background"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_height="wrap_content">
@@ -187,13 +193,14 @@
                     android:textSize="16dp"
                     android:text=""/>
                 <EditText
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:maxLines="10"
                     android:id="@+id/txtTeste3"
                     android:enabled="false"
-                    android:backgroundTint="@color/white"
+                    android:paddingStart="16dp"
+                    android:backgroundTint="@color/transparent"
                     android:textSize="16sp"
                     android:textColor="@color/black"
                     android:inputType="textMultiLine" />
@@ -219,13 +226,14 @@
                     android:text=""/>
 
                 <EditText
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:maxLines="10"
+                    android:layout_marginStart="16dp"
                     android:id="@+id/txtJogNaoSorteados"
                     android:enabled="false"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/transparent"
                     android:textSize="16sp"
                     android:textColor="@color/black"
                     android:inputType="textMultiLine" />
